@@ -1,0 +1,168 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #CCC
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+a:hover {
+    color: #FFF
+}
+
+/* Header */
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #005792;
+    padding: 15px 100px;
+}
+
+header .logo {
+    float: left;
+    font-size: 20px;
+    display: inline-block;
+    line-height: 35px;
+}
+
+header .header-right {
+    float: right;
+}
+
+header .header-right .login,
+header .header-right .signup
+{
+    padding-right: 30px
+}
+
+header .header-right .search {
+    height: 35px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    text-indent: 10px;
+    padding: 10px
+}
+
+header .search::placeholder {
+    text-indent: 10px
+}
+
+/* Navbar */
+
+nav {
+    height: 50px;
+    background-color: #113f67;
+    color: #FFF;
+    padding: 5px 100px;
+    position: sticky;
+    top: 0
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 450px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+nav ul li {
+    line-height: 40px;
+    font-size: 14px;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid #f6f6e9;
+    transition: 0.5s
+}
+
+/* Main */
+
+main {
+    padding: 15px 100px;
+    display: grid;
+    grid-template-columns: 70% 27%;
+    grid-column-gap: 3%;
+}
+
+/* Right Section */
+
+section {
+    margin: 30px 0;
+}
+
+section img {
+    width: 100%;
+    height: 100%;
+}
+
+section h1 {
+    padding: 20px 0;
+}
+
+section p {
+    text-align: justify;
+    line-height: 1.5
+}
+
+/* Left Section */
+
+aside .category,
+.page {
+    margin: 30px 0;
+    background: white;
+    padding: 30px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3)
+}
+
+aside .category p
+{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+aside .category ul
+{
+    list-style: none;
+    line-height: 1.8;
+}
+
+aside .category ul li a
+{
+    color: #113f67
+}
+
+aside .category ul li a:hover
+{
+    color: #13334c
+}
+
+/* Footer */
+
+footer {
+    background-color: #005792;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 13px;
+    color: #FFF;
+}
+
+
+
